@@ -14,7 +14,14 @@ This was built and tested on Python 3.11.10 (yes I know it's old but I can't be 
 
  ## Prerequisites
 
+Python 3.11.10 (might work on others but I'm only testing for what I have)
 
+
+Reddit:
+To set this up you need to create a reddit app for your reddit account to be able to ping their api. To do this:
+1. Go to reddit.com/prefs/apps
+2. Press the button "are you a developer? Create an app here..."
+3. Select "script" and name it whatever you fancy
 
  -----
 
