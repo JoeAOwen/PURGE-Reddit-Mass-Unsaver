@@ -8,6 +8,8 @@
 
  This tool comes free to use as is. Feel free to incorporate it in any other projects as you see fit. All I ask is that I am credited for the work carried out here.
 
+This was built and tested on Python 3.11.10 (yes I know it's old but I can't be bothered to update my python version on my laptop)
+
  -----
 
  ## Prerequisites
