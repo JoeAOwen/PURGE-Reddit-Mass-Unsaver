@@ -1,5 +1,6 @@
 # PURGE - Post Unsave + Reddit Garbage Eraser
 By Joe
+
 A tool for erasing all your unwanted Reddit saves.
  
  -----
@@ -24,6 +25,7 @@ A tool for erasing all your unwanted Reddit saves.
 ## Setup
 
  In the repo root run:
+ 
  ```pip install -r requirements.txt```
 
  -----
@@ -37,20 +39,29 @@ A tool for erasing all your unwanted Reddit saves.
  **Example Commands:**
 
  ```python reddit-unsaver.py --browser firefox --include askreddit --dry-run```
+
  This command would remove all saves on your account that are in the r/askreddit subreddit. As it has the --dry-run tag it will not actually unsave anything and instead state what would be unsaved and the total number at the end.
 
  ```python reddit-unsaver.py --browser firefox --exclude learnpython gaming```
+
  This command would remove all saves on your account that are not in the r/learnpython or r/gaming subreddits. 
  
  Both the include and exclude params can take as many subreddits as you wish simply adding a space between them. You cannot use both at the same time as that wouldn't make sense.
 
  ```python reddit-unsaver.py --browser firefox --dry-run```
+
  A dry run of removing all saves from your account regardless of subreddit.
 
  ```python reddit-unsaver.py --browser firefox --delay 2.5```
+
  Removing all saves from your account with an average delay between unsaves of 2.5 seconds. Different delays you may find rate limits you less frequently.
 
  -----
 
  ## Conclusion
 
+ Hope you enjoy using this tool. Feel free to give this repo a star if you do.
+
+ Additionally feel free to request additional features if you can think of any. This is fairly barebones as is just for my current usecase.
+
+ Happy PURGE-ing :)
